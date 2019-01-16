@@ -1,2 +1,2 @@
-# The-Tech-Academy-Basic-JavaScript-Projects
-Repository for small JavaScript projects
+#JavaScript-Projects
+Repository for  JavaScript projects
