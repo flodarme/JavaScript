@@ -1,2 +1,2 @@
 #JavaScript-Projects
-Repository for  JavaScript projects
+Sample  JavaScript development projects
