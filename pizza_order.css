@@ -1,0 +1,89 @@
+body{
+	
+	background-image:url(sliceup.jpg);
+    background-size: 55%;
+    background-position: right 0% bottom 40%;
+	background-repeat: no-repeat;   
+}
+
+
+
+h1 {
+	margin-top: 40px;
+	display:inline-block; 
+	transform: translateX(105px);
+	background-color:#ffe0b3;
+	width: 50%;
+	text-shadow: 1px .5px 4px rgba(0,0,0, 0.6);
+	text-align: center;
+	font-size: 3.5em;
+	font-weight: 900;
+	color: Red;
+
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color:white;
+	background-color:red;
+	text-align: center;
+	position:relative;
+	
+	text-decoration: underline;
+		
+}
+
+.container {
+	position: center;
+	margin: 10;
+   
+	
+    width: 59%;
+	overflow: hidden;
+	
+}
+
+.menu {
+  
+    display: inline-block;vertical-align:top;
+	border-color: red;
+    background: #ffe0b3;
+    width: 25%;
+    height: 300px;
+	border-style: solid;
+    border-width: thin;
+	margin:0;
+   	font-size: large;
+		
+}
+
+
+.button {
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	transform: translateX(105px);
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button:hover {
+    background-color: grey; /* Green */
+    color: white;
+
+}
+.checkout{
+	width:75%;
+	margin: auto;
+}
+
+

@@ -1,2 +1,2 @@
-#JavaScript-Projects
-Sample  JavaScript development projects
+# The-Tech-Academy-JavaScript-Coding-Projects
+Repository for main JavaScript projects.
