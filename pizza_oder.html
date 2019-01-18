@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Pizza Order Drill</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+		 <title>Basic HTML Template</title>
+		 <link rel="stylesheet" href="pizza_order.css">
+
+</head> 
+    <body>
+	
+		<div class="container">
+		    <h1>Slice Up Pizza!</h1>
+			<br>
+			<form id = "menuForm">
+			
+			<div class="menu">
+					<h3>Size:</h3>
+					
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza - $6.00<br>
+					<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza - $10.00<br>
+					<br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza - $14.00<br>
+					<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza -$16.00<br>
+			</div>
+			<div class="menu">
+					<h3>Cheese:</h3>
+					<input class="cheese" type="radio" name="Cheese" value="No Cheese"> No Cheese<br>
+					<br>
+					<input class="cheese" type="radio" name="Cheese" value="Regular"> Regular<br>
+					<br>
+					<input class="cheese" type="radio" name="Cheese" value="Extra Cheese" checked> Extra Cheese - $3.00<br>
+					<br>
+					
+			</div>
+			<div class="menu">
+					<h3>Sauce:</h3>
+					<input class="sauce" type="radio" name="Sauce" value="Marinara Sauce"> Marinara Sauce<br>
+					<br>
+					<input class="sauce" type="radio" name="Sauce" value="White Sauce"> White Sauce<br>
+					<br>
+					<input class="sauce" type="radio" name="Sauce" value="Barbeque Sauce" checked> Barbeque Sauce<br>
+					<br>
+					<input class="sauce" type="radio" name="Sauce" value="No Sauce"> No Sauce<br>
+					
+			</div>
+			<div class="menu">
+					<h3>Crust:</h3>
+					<input class="crust" type="radio" name="Crust" value="Plain"> Plain<br>
+					<br>
+					<input class="crust" type="radio" name="Crust" value="Garlic Butter"> Garlic Butter<br>
+					<br>
+					<input class="crust" type="radio" name="Crust" value="Cheese Stuffed" checked> Cheese Stuffed - $3.00<br>
+					<br>
+					<input class="crust" type="radio" name="Crust" value="Spicy"> Spicy<br>
+					<br>
+					<input class="crust" type="radio" name="Crust" value="House Special"> House Special<br>
+			</div>
+			
+			<div class="menu">
+					<h3>Meats:</h3>
+					<p>One meat topping included in base price. Additional meat toppings are $1.00 each.</p>
+					<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+					<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+					<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+					<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+					<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+					<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+			</div>	
+			<div class="menu">
+					<h3>Veggies:</h3>
+					<p>One veggie topping included.Extra veggie toppings are $1.00 each.</p>
+					<input class="veggies" type="checkbox" name="Veggies" value="Tomatoes"> Tomatoes<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Onions"> Onions <br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Olives"> Olives<br> 
+					<input class="veggies" type="checkbox" name="Veggies" value="Green Pepper"> Green Pepper<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Mushroom">Mushroom<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Pineapple"> Pineapple<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Spinach"> Spinach<br>
+					<input class="veggies" type="checkbox" name="Veggies" value="Jalapeno"> Jalapeno<br>
+			</div>
+			
+			</form><br>
+			
+			<div class="checkout">
+			    <div class="button" onclick="clearAll()">
+					<p>Clear Selections</p>
+				</div>
+				<div class="button" onclick="getTotalCost()">
+					<p>Submit Order</p>
+				</div>
+				
+			</div>
+			<div id="cart">
+				<div id="title1"><h3>You Ordered:</h3></div>
+				<div id="title2"><h3>Subtotal:</h3></div>
+				<div id="showText1"></div>
+				<div id="showText2"></div>
+				<div id="totalPrice1"><h3>Total Price:</h3></div>
+				
+				<div id="totalPrice2"></div>
+			</div>
+			
+		</div>
+       
+        
+	
+	<script src="pizza_order.js"></script>
+	
+	
+	</body>
+</html>
